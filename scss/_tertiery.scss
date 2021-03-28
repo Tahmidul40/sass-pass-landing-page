@@ -1,0 +1,67 @@
+section.tertiery {
+  .wrapper {
+    max-width: 870px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+
+    // only change
+    .img {
+      order: 2;
+    }
+    // End
+
+    .title {
+      // only change
+      padding-right: 30px;
+      order: 1;
+      // End
+
+      h2 {
+        font-size: 1.9rem;
+        font-weight: 700;
+        color: $text;
+        margin-bottom: 16px;
+      }
+
+      p {
+        color: $gray;
+        margin-bottom: 20px;
+      }
+
+      ul {
+        margin-bottom: 20px;
+
+        li {
+          font-size: 13px;
+          margin-bottom: 5px;
+          color: $text;
+          font-weight: 500;
+
+          i {
+            font-size: 0.9rem;
+            color: $blue;
+            margin-left: 5px;
+          }
+        }
+      }
+
+      a {
+        font-size: 12px;
+        color: $blue;
+
+        i {
+          margin-left: 5px;
+        }
+
+        &:hover {
+          border-bottom: 1px solid $blue;
+
+          i {
+            margin-left: 8px;
+          }
+        }
+      }
+    }
+  }
+}

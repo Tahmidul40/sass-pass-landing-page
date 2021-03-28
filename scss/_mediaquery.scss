@@ -1,0 +1,162 @@
+// 1201px 768px and less
+@media screen and (max-width: 1201px) {
+  // feature section
+  .feature .img {
+    padding: 0 30px;
+  }
+}
+// 991px 768px and less
+@media screen and (max-width: 991px) {
+  // hero section
+  section.hero .wrapper {
+    padding: 0 30px;
+  }
+
+  // feature section
+  section.feature {
+    text-align: center;
+
+    .wrapper {
+      padding: 0 30px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+
+  // secondary section
+  .secondary {
+    .wrapper {
+      padding: 0 30px;
+    }
+  }
+
+  // secondary section
+  .tertiery {
+    .wrapper {
+      padding: 0 30px;
+    }
+  }
+
+  // final  section
+  .final {
+    .wrapper {
+      padding: 0 30px;
+
+      .box-wrap {
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center !important;
+      }
+    }
+  }
+
+  // get start section
+  .get-start {
+    .wrapper {
+      padding: 0 30px;
+      flex-direction: column;
+      text-align: center;
+
+      .title {
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  // footer
+  footer {
+    .wrapper {
+      padding: 0 30px;
+    }
+    .footer-links {
+      flex-direction: column;
+      justify-content: start;
+      align-items: flex-start;
+
+      .link {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+// 768px and less
+@media screen and (max-width: 768px) {
+  // secondary title section
+  section.secondary {
+    .wrapper {
+      flex-direction: column !important;
+
+      .img {
+        width: 70%;
+        margin: auto;
+      }
+
+      .title {
+        padding-left: 0px;
+
+        p {
+          max-width: 400px;
+        }
+      }
+    }
+  }
+
+  // secondary title section
+  section.tertiery {
+    .wrapper {
+      flex-direction: column !important;
+
+      .img {
+        width: 70%;
+        margin: auto;
+        order: 1;
+      }
+
+      .title {
+        padding-left: 0px;
+        order: 2;
+
+        p {
+          max-width: 400px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  // hero form
+  .hero {
+    form {
+      flex-direction: column;
+      justify-content: center;
+
+      input {
+        width: 100% !important;
+        margin-bottom: 16px;
+        border-radius: 5px;
+      }
+
+      a {
+        padding: 10px 18px;
+        border-radius: 5px !important;
+      }
+    }
+  }
+
+  // get start form
+  form {
+    flex-direction: column;
+    justify-content: center;
+    width: 100% !important;
+
+    input {
+      border-radius: 5px;
+      margin-bottom: 16px;
+    }
+
+    a {
+      border-radius: 5px !important;
+    }
+  }
+}
